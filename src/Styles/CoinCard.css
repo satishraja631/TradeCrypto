@@ -1,0 +1,130 @@
+.coin-card{
+    background-color: white;
+    height: 55%;
+    width:100%;
+    margin-right:auto;
+    margin-left:2%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.coin-card-image{
+    width:50px;
+    height:50px;
+    margin-left:45%;
+
+}
+
+.coin-card-elements{
+    display: flex;
+    flex-direction:row;
+}
+
+.coin-card-elements p{
+    font-size: small;
+    font-family: cursive;
+}
+.value{
+    margin-right:50px;
+    margin-left:auto;
+}
+
+.name{
+    margin-left:10px;
+}
+
+.buy-sell-buttons{
+    margin-left:10px;
+    margin-top:10px;
+} 
+
+.buy-sell-buttons button{
+    width:50%;
+    height:30px;
+    
+}
+
+.buy-button{
+    border-top: 5px solid #32cd32;;
+    border:1px solid #32cd32;
+    background-color:white;
+}
+.sell-button{
+    border:1px solid#e3242b;
+    background-color: white;
+}
+
+.login-signup{
+    display:flex;
+    flex-direction: column;
+    margin-top:10vh;
+    margin-left:20%;
+   
+}
+
+.login-signup button{
+    width:80%;
+    height:40px;
+    margin-bottom: 10%;
+}
+
+.login{
+    background-color: #32cd32;;
+    border:1px solid #32cd32;
+}
+
+.signup{
+    background-color: white;
+    border: 1px solid #32cd32;
+}
+
+.distinguish{
+    font-weight: lighter;
+    font-size: small;
+    margin-left:50%;
+}
+
+@media screen and (max-width:1366px){
+    .coin-card {
+            background-color: white;
+            height: 45vh;
+            width: 95%;
+            margin-right: 5px;
+            margin-left: 10px;
+            display: flex;
+            flex-direction: column;
+    
+        }
+        .coin-card-elements p {
+            font-size: xx-small;
+            font-family: cursive;
+        }
+         .coin-card-image {
+                    width: 20%;
+                    height: 50px;
+                    margin-left: 40%;
+        
+                }
+
+                 .value {
+                                    margin-right: 30px;
+                                    margin-left: auto;
+                                }
+}
+
+@media screen and (max-height:600px){
+
+.coin-card {
+        background-color: white;
+        height: 50vh;
+        width: 95%;
+        margin-right: 5px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+
+    }
+}

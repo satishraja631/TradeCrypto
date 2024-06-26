@@ -1,0 +1,64 @@
+.chart-info{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    border: 3px solid whitesmoke;
+    margin-left:10px;
+}
+
+.frames {
+        display: flex;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        margin:0px;
+        margin-left: 30px;
+        padding: 0px;
+        
+}
+
+.timeFrame{
+    margin-right:10px;
+}
+
+.coin-info{
+    display:flex;
+    flex-direction:row;
+    border-bottom:3px solid whitesmoke;
+    
+
+
+}
+
+.coin-info-currency{
+    font-size:small;
+    font-weight: bold;
+    margin-left:30px;
+}
+
+.coin-info-id{
+    font-size:small;
+    margin-left:10px;
+}
+.coin-info-price{
+    font-size:small;
+    margin-left:auto;
+    margin-right:20px;
+   
+}
+
+.additional-info{
+    display:flex;
+    flex-direction:row;
+}
+
+.volumes{
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+    margin-left:auto;
+    margin-right:20px;
+}
+.volumes p{
+    margin-left: 10px;
+}

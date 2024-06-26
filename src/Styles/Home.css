@@ -1,0 +1,10 @@
+.home-page{
+    background-color: whitesmoke;
+    margin:0px;
+}
+
+.contents{
+    display:flex;
+    flex-direction: row;
+    padding:10px;
+}
