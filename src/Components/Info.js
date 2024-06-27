@@ -4,7 +4,7 @@ import '../Styles/Info.css'
 
 function Info() {
     const timeFrames=['1D','1W','1M','1Y'];
-    const {coins,coinId,coinData,currency,setDays,days}=useContext(AppContext)
+    const {coinData,currency,setDays,days}=useContext(AppContext)
     
 
     const handleDays=async(timeFrame)=>{

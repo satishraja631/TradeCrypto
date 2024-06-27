@@ -65,3 +65,42 @@
     background-color:#32cd32;
     border:1px solid #32cd32;
 }
+
+@media screen and (max-width:576px){
+    .navbar {
+            display: flex;
+           
+            background-color: #1e90ff;
+            font-family: cursive;
+            height: 80px;
+    
+            width: 100vw;
+        }
+        .navbar-container {
+            display: flex;
+            flex-direction:column;
+           
+            align-items: center;
+        }
+        .navbar-logo {
+            display: flex;
+            font-size: 1rem;
+            justify-content: center;
+            font-weight: bold;
+            color: #000;
+            margin: 10px;
+    
+        }
+        .nav-item {
+            margin-right: 50px;
+        
+        }
+        .nav-menu {
+            display: flex;
+            margin-left:50px;
+            list-style: none;
+            
+            padding: 0;
+    
+        }
+}

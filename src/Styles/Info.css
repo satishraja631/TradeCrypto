@@ -62,3 +62,87 @@
 .volumes p{
     margin-left: 10px;
 }
+
+
+@media screen and (max-width:576px){
+
+    .chart-info {
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            border: 3px solid whitesmoke;
+            margin-left: 0px;
+    }
+        .frames {
+            display: flex;
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            margin: 0px;
+            margin-left: 0px;
+            padding: 0px;
+    
+        }
+        .coin-info-currency {
+            font-size: small;
+            font-weight: bold;
+            margin-left: 0px;
+        }
+        .coin-info-price {
+            font-size: small;
+            margin-left: auto;
+            margin-right: 0px;
+    
+        }
+                .frames {
+                    display: flex;
+                    list-style: none;
+                    display: flex;
+                    flex-direction: row;
+                    margin: 0px;
+                    margin-left: 20%;
+                    padding: 0px;
+        
+                }
+        .timeFrame {
+            margin-right: 10%;
+        }
+        .additional-info {
+            display: flex;
+            flex-direction: column;
+        }
+        .volumes {
+            display: flex;
+            flex-direction: row;
+            font-size: small;
+            margin-left: auto;
+            margin-right: 0px;
+        }
+
+}
+
+@media screen and (min-width:577px) and (max-width:768px) {
+
+    .chart-info {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border: 3px solid whitesmoke;
+        margin-left: 0px;
+    }
+
+    
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+
+    .chart-info {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border: 3px solid whitesmoke;
+        margin-left: 0px;
+    }
+
+
+}

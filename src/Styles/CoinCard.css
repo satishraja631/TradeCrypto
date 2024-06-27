@@ -87,44 +87,52 @@
     margin-left:50%;
 }
 
-@media screen and (max-width:1366px){
+@media screen and (min-width:577px) and (max-width:768px){
     .coin-card {
             background-color: white;
-            height: 45vh;
-            width: 95%;
-            margin-right: 5px;
-            margin-left: 10px;
+            height: 60%;
+            width: 70%;
+            margin-right: auto;
+            margin-left: 15%;
             display: flex;
             flex-direction: column;
     
+    }
+        .buy-sell-buttons {
+            margin-left: 15%;
+            margin-top: 10px;
         }
-        .coin-card-elements p {
-            font-size: xx-small;
-            font-family: cursive;
+        .buy-sell-buttons button {
+            width: 40%;
+            height: 30px;
+            margin-right:10px;
+    
         }
-         .coin-card-image {
-                    width: 20%;
-                    height: 50px;
-                    margin-left: 40%;
-        
-                }
 
-                 .value {
-                                    margin-right: 30px;
-                                    margin-left: auto;
-                                }
 }
 
-@media screen and (max-height:600px){
-
-.coin-card {
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .coin-card {
         background-color: white;
-        height: 50vh;
-        width: 95%;
-        margin-right: 5px;
-        margin-left: 10px;
+        height: 60%;
+        width: 70%;
+        margin-right: auto;
+        margin-left: 15%;
         display: flex;
         flex-direction: column;
 
     }
+
+    .buy-sell-buttons {
+        margin-left: 15%;
+        margin-top: 10px;
+    }
+
+    .buy-sell-buttons button {
+        width: 40%;
+        height: 30px;
+        margin-right: 10px;
+
+    }
+
 }

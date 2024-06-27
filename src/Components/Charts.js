@@ -1,7 +1,6 @@
 import React ,{useState,useEffect,useRef,useContext} from 'react'
 import axios from 'axios'
 import Chart from "react-apexcharts";
-import { format } from 'd3-format';
 import { AppContext } from '../AppContext';
 import '../Styles/Charts.css'
 import Info from './Info';
@@ -10,8 +9,8 @@ function Charts() {
     const [chartData,setChartData]=useState([])
     const chartRef = useRef(null); 
     
-    const {coinId,currency,coins,days}=useContext(AppContext)
-    // const filteredCoin=coins.filter((coin)=>coin.id=coinId);
+    const {coinId,currency,days}=useContext(AppContext)
+    
     
 
 
@@ -60,9 +59,9 @@ function Charts() {
         scales: {
           x: {
           type: 'time',
-          // Enable scrolling for X-axis:
+          
           panning: true,
-            // Adjust zoom behavior (optional):
+            
             minZoom: 0.5,
             maxZoom: 5,
           },
@@ -104,7 +103,7 @@ function Charts() {
               type="candlestick"
               
               events={{
-          zoomEnd: handleZoomEnd, // Handle zoom end event
+          zoomEnd: handleZoomEnd, 
         }}
           ref={chartRef}
         />
